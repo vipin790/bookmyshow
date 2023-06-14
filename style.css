@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  .nav-one{
+    background-color: #333545;
+  }
+  .form-control{
+    width: 400px;
+  }
+  .left-nav , .right-nav{
+    list-style-type: none;
+    display: flex;
+    color: white;
+  }
+  .sec-nav{
+    background-color: rgb(78, 77, 77);
+  }
+  .mob-nav{
+    color: white;
+    max-width: 100%;
+  }
+  .mob{
+    max-width: 100%;
+
+  }
+  .card{
+   border: none;;
+  }
+  .card-body h5,.card-body-p h5{
+    font-size:15px;
+    font-family: sans-serif;
+    color: #95969d;
+  }
+  .dummy img,.logo-p{
+    max-width: 80%;
+   margin: 0px 10%;
+  }
+  .main-card{
+    max-width: 100%;
+  }
+  .events img,.brances img{
+    max-width: 100%;
+  }
+  .premier-sec,.card-body-p{
+    background-color: #2b3148;
+    color: white;
+  }
+  .btn:hover{
+    background-color: #e80219;
+  }
+  .services img,.services{
+   max-width: 100%;
+   background-color: #404043;
+  }
+  .bookmyshow,.social-media,.copyright{
+   
+    background-color: #333338;
+    color: #666666;
+  }
+  .animation{
+    outline: 3px solid red;
+   
+  }
+
+ 
+  
+  
+  /* nav bar response */
+  @media (max-width:992px){
+    #second-nav,.brances{
+      display: none;
+    }
+    .card-body h4,.card-body-p h4{
+    font-size: 15px;
+  }
+  .card-head h2,.event-head h2{
+    font-size: 20px;
+
+  }
+  }
+  @media(max-width:768px){
+    .main-nav,.copyright,.card-body h5,.card-body-p h5{
+      display: none;
+    }
+    .card-body h4,.card-body-p h4{
+    font-size: 10px;
+    }
+    .main-card{
+      gap: 5px;
+    }
+    .card-head h2,.event-head h2{
+    font-size: 15px;
+
+  }
+  }
+  @media(min-width:768px){
+    .mob-nav{
+      display: none;
+    }
+    .main-card{
+      gap:15px;
+    }
+    
+  }
+  @media(max-width:381px){
+    .its-all,.triv{
+      font-size: 10px;
+     
+    }
+    .social-media {
+      display: none !important;
+    }
+
+  }
+  /* card response */
